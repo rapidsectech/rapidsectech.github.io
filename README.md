@@ -1,1 +1,1 @@
-# rapidsec
+# Rapidsec Global Enterprise
