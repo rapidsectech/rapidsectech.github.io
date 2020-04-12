@@ -2487,7 +2487,6 @@ span.stButton_gradient,
 .logo-image img {
   display: inline-block;
 }
-
 #coming-soon {
   background-image: url("../images/coming-soon-bg.png");
   background-position: center top;
@@ -2673,4 +2672,45 @@ span.stButton_gradient,
   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
   border-radius: 100%;
   margin: 10px 0;
+}
+
+
+@media screen and (max-width:1200px) {
+    #team {
+        padding: 120px 0
+    }
+}
+
+@media screen and (max-width:991px) {
+    #team {
+        padding: 90px 0
+    }
+    #team .col-md-5.col-sm-12.pull-right {
+        float: none!important
+    }
+    #team .team-section-text {
+        padding-bottom: 50px;
+        padding-top: 0
+    }
+    img {
+    max-width: 50%;
+    }
+}
+
+@media screen and (max-width:767px) {
+ img{
+     max-width: 50%;
+ }
+}
+
+
+@media screen and (max-width: 1200px){
+    img {
+    max-width: 50%;
+    }
+}
+@media screen and (max-width: 991px){
+img {
+    max-width: 50%;
+}
 }
